@@ -800,3 +800,10 @@ footer .container {
     letter-spacing: 0.06em;
     color: #ffffff;
 }
+.btn-footer-text::after {
+    content: '';
+    width: 24px;
+    height: 24px;
+    background-image: url(../img/iconsend.svg);
+    margin-left: 10px;
+}
