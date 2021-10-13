@@ -256,7 +256,6 @@ p {
     border: none;
     padding: 10px 32px;
     text-align: center;
-
     transition-property: var(--background-btn-color);
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -751,4 +750,53 @@ footer .container {
     border: none;
     background-color: transparent;
     cursor: pointer;
+}
+
+.footer-form {
+    margin-top: 72px;
+    margin-left: 93px;
+}
+.form-input {
+    width: 358px;
+    height: 50px;
+    box-sizing: border-box;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    background-color: #2f303a;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.25;
+    align-items: center;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    padding-left: 16px;
+    margin-right: 0;
+}
+.footer-btn {
+    width: 200px;
+    height: 50px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    background: #2196f3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    text-align: center;
+    padding-left: 29px;
+    margin-left: 12px;
+}
+.btn-footer-text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.87;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #ffffff;
 }
