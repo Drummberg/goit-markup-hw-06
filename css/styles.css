@@ -739,6 +739,18 @@ footer .container {
     min-height: 581px;
     background-color: #fff;
     border-radius: 4px;
+    padding: 40px;
+}
+.modal-title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: #212121;
 }
 .btn-close {
     position: absolute;
