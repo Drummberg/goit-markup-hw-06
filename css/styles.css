@@ -839,7 +839,11 @@ footer .container {
     text-align: center;
     padding-left: 29px;
     margin-left: 12px;
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .btn-footer-text {
     font-family: Roboto;
     font-style: normal;
@@ -890,6 +894,14 @@ footer .container {
     margin: 0 auto;
     cursor: pointer;
     border: none;
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.modal-btn:hover,
+.modal-btn:focus {
+    background-color: #188ce8;
+    cursor: pointer;
 }
 .modal-btn-text {
     font-family: Roboto;
