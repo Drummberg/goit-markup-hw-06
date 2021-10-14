@@ -785,6 +785,11 @@ footer .container {
     background-color: transparent;
     cursor: pointer;
 }
+.btn-svg {
+    fill: #ffffff;
+    color: #000000;
+}
+
 .modal-input {
     width: 100%;
     min-height: 40px;
