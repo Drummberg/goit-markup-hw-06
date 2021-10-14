@@ -793,6 +793,8 @@ footer .container {
     border-radius: 4px;
     padding-left: 40px;
     padding-right: 20px;
+    outline: none;
+    cursor: pointer;
 }
 .input-wrapper {
     display: block;
@@ -822,6 +824,12 @@ footer .container {
     color: #ffffff;
     padding-left: 16px;
     margin-right: 0;
+}
+.modal-input:focus {
+    border-color: #2196f3;
+}
+.modal-input:focus + .input-icon {
+    fill: #2196f3;
 }
 .footer-form {
     margin-top: 72px;
@@ -883,6 +891,11 @@ footer .container {
     line-height: 14px;
     letter-spacing: 0.01em;
     color: #000000;
+    outline: none;
+    cursor: pointer;
+}
+.modal-user-comment:focus {
+    border-color: #2196f3;
 }
 .modal-btn {
     width: 200px;
