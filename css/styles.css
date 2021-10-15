@@ -788,6 +788,9 @@ footer .container {
 .btn-svg {
     fill: #000000;
     color: #ffffff;
+    transition-property: fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .btn-svg:hover,
 .btn-svg:focus {
@@ -803,6 +806,9 @@ footer .container {
     padding-right: 20px;
     outline: none;
     cursor: pointer;
+    transition-property: border;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .input-wrapper {
     display: block;
@@ -813,6 +819,9 @@ footer .container {
     left: 12px;
     top: 50%;
     transform: translateY(-50%);
+    transition-property: fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .form-input {
     width: 358px;
