@@ -786,10 +786,13 @@ footer .container {
     cursor: pointer;
 }
 .btn-svg {
-    fill: #ffffff;
-    color: #000000;
+    fill: #000000;
+    color: #ffffff;
 }
-
+.btn-svg:hover,
+.btn-svg:focus {
+    fill: #2196f3;
+}
 .modal-input {
     width: 100%;
     min-height: 40px;
